@@ -5,6 +5,7 @@ RSpec.feature "Creating Home Page" do
     
     expect(page).to have_link "Athletes Nikhil"
     expect(page).to have_link "Home"
-    expect(page).to have_content("Work out Lounge")
+    expect(page).to have_content("Work Out Lounge!")
+  
   end
 end
