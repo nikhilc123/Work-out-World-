@@ -2,9 +2,46 @@
 @import "bootstrap";
 
 body {
-  padding-top: 70px;
+  padding-top: 20px;
+  background-color: #ffcc99;
 }
 
 .signout, .navbar-right {
   margin-right: 50px;
+}
+
+#bs-example-navbar-collapse-1, .container-fluid {
+  background-color: #66ffb3;
+}
+
+.jumbotron {
+  background-color: #ffffb3;
+}
+
+#header-text {
+  color: #ff3333;
+}
+
+#tagline {
+ padding-top: 20px; 
+}
+
+.text-center {
+  padding-top: 70px;
+}
+
+.alert {
+padding-top: 80px;
+}
+
+.btn-primary{
+  margin-top: 80px;
+}
+
+#submit {
+  margin-top: 5px;
+}
+
+.show-header {
+  margin-top: 85px;
 }
