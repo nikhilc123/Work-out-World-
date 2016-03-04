@@ -38,6 +38,13 @@ class ExercisesController < ApplicationController
     end
   end
   
+  def destroy
+    if @exercise.destroy
+      flash[:success] = "Exercise has been deleted"
+      redirect_to user_exercises_path(current_user)
+    end
+  end
+  
   private
   
     def exercise_params
