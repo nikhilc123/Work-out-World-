@@ -8,7 +8,7 @@ RSpec.feature "Listing exercises" do
     @e2 = @nik.exercises.create(duration_in_min: 20, workout: "Biceps and Triceps", workout_date: "2016-03-04")
   end
   
-  scenario do
+  scenario "show user exercise's for last 7 days" do
     visit "/"
     click_link "My Lounge"
     
