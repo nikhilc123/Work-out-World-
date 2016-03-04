@@ -12,7 +12,7 @@ RSpec.feature "Create a exercise with valid credentials" do
     
     fill_in "Duration", with: 70
     fill_in "Workout Details", with: "Chest and Biceps"
-    fill_in "Activity Date", with: "2016-03-03"
+    fill_in "Activity Date", with: Date.today
     
     click_button "Create Exercise"
     
