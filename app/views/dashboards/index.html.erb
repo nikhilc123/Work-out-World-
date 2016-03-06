@@ -2,3 +2,17 @@
   <h1 class='text-center'><i>Work Out Lounge!</i></h1>
   <p class='text-center'><i class= 'tagline'>Share your Experience with Family and Friends!</i></p>
 </div>
+
+<div class="row">
+  <div class="col-md-10">
+    List of all Members
+  </div>
+</div>
+
+<div class="row">
+  <% @athletes.each do |athlete| %>
+    <div class="col-md-10 well member">
+       <%= athlete.full_name %>
+    </div>
+    <% end %>
+</div>
