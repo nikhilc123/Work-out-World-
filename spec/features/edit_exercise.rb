@@ -2,7 +2,7 @@ require 'rails_helper'
 RSpec.feature "Edit Exercise" do
   before do
     #create dummy user and exercise, and login with that user to update the exercise
-    @owner = User.create!(email: "owner@gmail.com", password: "password")
+    @owner = User.create!(first_name: 'Vinny', last_name: "tengratool", email: "owner@gmail.com", password: "password")
     @owner_exer = @owner.exercises.create(duration_in_min: 20, workout: "Shoulders", workout_date: Date.today)
     login_as(@owner)
   end

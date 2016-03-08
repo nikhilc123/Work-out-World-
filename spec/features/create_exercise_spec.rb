@@ -1,7 +1,7 @@
 require 'rails_helper'
 RSpec.feature "Create a exercise with valid credentials" do
   before do
-    @nik = User.create!(email: "nik@gmail.com", password: "password")
+    @nik = User.create!(first_name: "nikhil", last_name: "Chikorde", email: "nik@gmail.com", password: "password")
   end
   
   scenario do
