@@ -9,17 +9,17 @@ body {
   margin-right: 50px;
 }
 
-#bs-example-navbar-collapse-1, .container-fluid {
-  background-color: #66ffb3;
-}
+// #bs-example-navbar-collapse-1, .container-fluid {
+//   background-color: #66ffb3;
+// }
 
 .jumbotron {
   background-color: #ffffb3;
 }
 
-#header-text {
-  color: #ff3333;
-}
+// #header-text {
+//   color: #ff3333;
+// }
 
 #tagline {
  padding-top: 20px; 
@@ -47,4 +47,8 @@ padding-top: 45px;
 
 .pagination {
   margin-top: 1px;
+}
+
+.well {
+  margin-top: 20px;
 }
